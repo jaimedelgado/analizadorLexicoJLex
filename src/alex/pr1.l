@@ -23,7 +23,7 @@ package alex;
 letra  = ([A-Z]|[a-z])
 digitoPos = [1-9]
 digito = ({digitoPos}|0)
-parteDecimal = {digito}*{digitoPos}
+parteDecimal = (0|({digito}*{digitoPos}))
 exp = (e|E)(\-)?(0|({digitoPos}{digito}*))
 espacio = [ \t\r\b\n]
 comentario = @[^\n] 
