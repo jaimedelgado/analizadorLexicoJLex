@@ -9,7 +9,7 @@ public class ALexOperations {
 	    System.err.println("***"+alex.fila()+" Caracter inexperado: "+ "\"" + (int)alex.lexema().toCharArray()[0] + "\"");
   }
   public UnidadLexica unidadId() {
-	    return new UnidadLexicaMultivaluada(alex.fila(),ClaseLexica.NOMBRE,alex.lexema());     
+	    return new UnidadLexicaMultivaluada(alex.fila(),ClaseLexica.IDENTIFICADOR,alex.lexema());     
   }  
    
 
